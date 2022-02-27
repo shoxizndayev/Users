@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/posts.css">
+    <title>Posts</title>
+</head>
+<body>
+    <section class="posts">
+        <div class="container">
+            <ul class="posts__list">
+                
+                <img class="loading__gif"
+                src="./Basketball.gif" 
+                alt="Loading gif"
+                width="50"
+                height="50"
+                >
+            </ul>
+
+            <button class="login__out" id="log__out">Log out</button>
+        </div>
+    </section>
+
+
+
+
+    <template id="post__template">
+        <li class="post__item">
+            <p class="post__title"></p>
+
+            <p class="post__body"></p>
+
+            <a href="./coments.html" class="user__comments">Comments</a>
+        </li>
+    </template>
+
+    <script src="./js/utils.js"></script>
+    <script src="./js/posts.js"></script>
+    
+</body>
+</html>

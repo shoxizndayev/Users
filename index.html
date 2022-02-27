@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Index</title>
+</head>
+<body>
+    <section class="users">
+       <div class="container">
+        <ul class="users__list">
+            <img class="loading__gif"
+            src="./Basketball.gif" 
+            alt="Loading gif"
+            width="50"
+            height="50"
+            >
+        </ul>
+        <button class="login__out" id="log__out">Log out</button>
+       </div>
+    </section>
+
+
+
+
+    <template id="user__template">
+        <li class="user__item">
+
+            <div class="user__left__box"> 
+                <img src="./Photo/profile.png"
+                alt=""
+                width="100"
+                height="100"
+                >
+
+                <p class="room"><span class="user__name"></span></p>
+
+                <p class="room__email">E-mail:  <span class="user__email"></span></p>
+            </div>
+
+            <div class="user__right__box">         
+                <p class="user__room">Full name: 
+                    <span class="user__fullname"></span>
+                </p>
+                
+                <p class="user__room">City of residence: 
+                    <span class="user__city"></span>
+                </p>
+
+                <p class="user__room">Street: 
+                    <span class="user__street"></span>
+                </p>
+
+                <p class="user__room">Phone number: 
+                    <span class="user__phone"></span>
+                </p>
+
+                <p class="user__room">Website: 
+                    <span class="user__website"></span>
+                </p>
+
+                <p class="user__room">Working company: 
+                    <span class="user__company"></span>
+                </p>
+
+                <p class="user__room">Position at work: 
+                    <span class="user__catch"></span>
+                </p>
+
+                <a href="./posts.html" class="user__posts">Posts</a>
+            </div>
+
+
+        </li>
+    </template>
+    
+
+    <script src="./js/utils.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

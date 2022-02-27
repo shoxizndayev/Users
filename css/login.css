@@ -1,0 +1,62 @@
+body {
+    background-image: url(../Photo/maxresdefault_live.jpg);
+    background-attachment: fixed;
+}
+
+.container{
+    max-width: 1210px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 46px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.login__form {
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: rgba(0, 46, 72, 0.871);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+.login__label {
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.input__email, .input__password {
+    width: 250px;
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 48px;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+.login__button {
+    width: 150px;
+    border: #1852F2;
+    background: #1852F2;
+    border-radius: 48px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.85);
+    transition: background-color 0.2s ease;
+}
+
+.login__button:hover {
+    background-color: #0732a7;
+}

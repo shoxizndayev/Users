@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/comments.css">
+    <title>Comments</title>
+</head>
+<body>
+    <section class="comments">
+        <div class="container">
+            <ul class="comments__list">
+                <img class="loading__gif"
+                src="./Basketball.gif" 
+                alt="Loading gif"
+                width="50"
+                height="50"
+                >
+            </ul>
+
+            <button class="login__out" id="log__out">Log out</button>
+        </div>
+    </section>
+
+
+    <template id="comment__template">
+        <li class="comment__item">
+            <p class="comment__email"></p>
+
+            <p class="comment__body"></p>
+
+            <span class="comment__room">E-mail: <a href="#" class="comment__link"></a></span>
+
+        </li>
+    </template>
+
+    
+    <script src="./js/utils.js"></script>
+    <script src="./js/coments.js"></script>
+    
+</body>
+</html>
